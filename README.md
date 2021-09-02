@@ -15,4 +15,4 @@ This repository uses [pre-commit](https://pre-commit.com) and [commitlint](https
 
 
 ### Release Management
-This repository uses [semantic-release](https://github.com/semantic-release/semantic-release) to manage the release process.
+This repository uses [semantic-release](https://github.com/semantic-release/semantic-release) to manage the release process. Sematic-release runs on each merge to the master branch and will automatically generate a changelog and release.
