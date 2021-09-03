@@ -1,5 +1,5 @@
-# plugins:
-#   - "commitlint-plugin-jira-rules"
+plugins:
+  - "commitlint-plugin-jira-rules"
 
 extends:
   - "@commitlint/config-conventional"
