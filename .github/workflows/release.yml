@@ -12,6 +12,8 @@ on:
       - beta
       - next
       - "*.x" #Maintenance Release Branches
+    paths:
+      - ".releaserc.yaml"
 jobs:
   release:
     name: Release
