@@ -5,7 +5,7 @@ plugins:
 # and comment out the "@commitlint/config-conventional" rule extension.
 extends:
   - "@commitlint/config-conventional"
-  #- "jira"
+  #- "jira" #See https://github.com/Gherciu/commitlint-jira
 
 help: |
   **Possible types**:
