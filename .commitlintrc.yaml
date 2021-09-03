@@ -1,6 +1,8 @@
 plugins:
   - "commitlint-plugin-jira-rules"
 
+# To use JIRA task IDs instead of the conventional commits standard, uncomment the "jira" rules extension below
+# and comment out the "@commitlint/config-conventional" rule extension.
 extends:
   - "@commitlint/config-conventional"
   #- "jira"
