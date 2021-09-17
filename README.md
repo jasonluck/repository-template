@@ -5,6 +5,19 @@ Template for GitHub repositories
 
 # Contributing
 
+### Commit Messages
+All commit messages must conform to the format `<change type>(<scope>): <description of change>`. An example of a new feature would be `feat(payment): add new payment feature`. The list of accepted change types is:
+
+* `ci`:       Changes to our CI configuration files and scripts (example scopes: Travis, Circle CI, BrowserStack, GitHub)
+* `feat`:     Adds a new feature.
+* `fix`:      Solves a bug.
+* `docs`:     Adds or alters documentation. (example scopes: readme, worker, code_of_conduct, contributors)
+* `style`:    Improves formatting, white-space.
+* `refactor`: Rewrites code without feature, performance or bug changes.
+* `perf`:     Improves performance.
+* `test`:     Adds or modifies tests. (example scopes: functionals, unit-tests)
+* `revert`:   Changes that reverting other changes
+* `chore`:    No production code change. Updating grunt tasks etc;
 
 ### Commit Hooks
 [ Install `pre-commit`](https://pre-commit.com/#install) and install the GitHub hook scripts
